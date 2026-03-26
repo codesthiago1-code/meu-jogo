@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>HeathSocial</title>
+    <link rel="stylesheet" href="HealthSocial.css">
+</head>
+<body>
+    <h1>HealthSocial</h1>
+
+    <h2>Cadastro</h2>
+    <form id="cadastroForm">
+        <input type="text" name="nome" placeholder="Nome">
+        <input type="email" name="email" placeholder="email">
+        <input type="password" name="senha" placeholder="senha">
+        <button type="submit">Cadastrar</button>
+    </form>
+
+    <h2>Login</h2>
+    <form id="loginForm">
+        <input type="email" name="email" placeholder="email">
+        <input type="password" name="senha" placeholder="senha">
+        <button type="submit">Entrar</button>
+    </form>
+</section>
+
+<section>
+    <h2>Postar Treinos/Resultados</h2>
+    <form id="postForm">
+        <input type="text" name="titulo" placeholder="Titulo" required>
+        <textarea name="conteudo" placeholder="Descrição do treino ou resultado" required></textarea>
+        <button type="submit">Postar</button>
+    </form>
+</section>
+
+<section>
+    <h2>Feed Esportivo</h2>
+    <div id="feed"></div>
+</section>
+
+<script src="HealthSocial.js"></script>
+</body>
+</html>

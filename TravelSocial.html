@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>TravelSocial</title>
+    <link rel="stylesheet" href="TravelSocial.css">
+</head>
+<body>
+    <h1>TravelSocial</h1>
+
+    <section>
+        <h2>Cadastro</h2>
+        <form id="cadastroForm">
+            <input type="text" name="nome" placeholder="Nome" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="password" name="senha" placeholder="Senha" required>
+            <button type="submit">Cadastrar</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>Login</h2>
+        <form id="loginForm">
+            <input type="email" name="email" placeholder="Email" required>
+            <textarea name="descrição" placeholder="Descrição da viagem" required></textarea>
+            <input type="text" name="foto_url" placeholder="URL da foto" required>
+            <button type="submit">Postar</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>Feed de Viagens</h2>
+        <div id="feed"></div>
+        </section>
+        
+        <script src="TravelSocial.js"></script>
