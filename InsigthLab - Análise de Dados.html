@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>InsightLab - Análise de Dados</title>
+  <link rel="stylesheet" href="InsigthLab - Análise de Dados.css">
+</head>
+<body>
+  <header>
+    <h1>InsightLab</h1>
+    <p>Transformando dados em decisões inteligentes</p>
+    <nav>
+      <a href="#servicos">Serviços</a>
+      <a href="#equipe">Equipe</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="servicos">
+      <h2>Nossos Serviços</h2>
+      <ul>
+        <li>Dashboards interativos</li>
+        <li>Modelos preditivos</li>
+        <li>Jurimetria aplicada ao Direito</li>
+      </ul>
+    </section>
+
+    <section id="equipe">
+      <h2>Equipe</h2>
+      <p>Profissionais especializados em análise e ciência de dados.</p>
+    </section>
+
+    <section id="contato">
+      <h2>Contato</h2>
+      <form onsubmit="enviarMensagem(); return false;">
+        <input type="text" placeholder="Seu nome" required>
+        <input type="email" placeholder="Seu email" required>
+        <textarea placeholder="Sua mensagem"></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+      <p id="mensagem"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 InsightLab</p>
+  </footer>
+
+  <script src="InsigthLab - Análise de Dados.js"></script>
+</body>
+</html>
